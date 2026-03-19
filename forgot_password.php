@@ -39,30 +39,12 @@ $body = '<!DOCTYPE html>
 
 </body>
 </html>';
-/*
- 		$mail = new PHPmailer();
- 		$send_from_mail = 'teamtriad@triad01.com';
- 		$send_from_name = 'Team TRIAD';
- 		$mail->isMail();
- 		$mail->isHTML(true);
- 		$mail->SMTPAuth = true;
- 		$mail->From = $send_from_mail; 		
-		$mail->FromName = $send_from_name;
- 		$mail->Sender = $send_from_mail;
- 		$mail->addReplyTo($send_from_mail);		
- 		$mail->addAddress($email);
- 		$mail->Subject = $subject;
- 		$mail->Body = $body;
- 		$mail->Send();
-		*/
+
 		$send_from_mail = 'testt1@gmail.com';
  		$send_from_name = 'Tech Team ';
 		
 		$data_email=array(
 		'from' => $send_from_mail,
-	//	'FromName' => $send_from_name,
-	//	'Sender' => $send_from_mail,
-	//	'addReplyTo' =>$send_from_mail,	
 		'email' => $email,
 		'subject' => $subject,
 		'body' => $body		

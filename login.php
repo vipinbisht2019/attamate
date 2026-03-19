@@ -198,19 +198,7 @@ if( $login_result->num_rows > 0 ) {
 					} 
 				else if($dd_old == $holidays)
 					{
-					//	echo "rr"; die;
-				/*
-					$att11 = "select * from `attendance` where `emp_code`='".$row['emp_code']."' and in_time != '00:00:00' ORDER BY `id` DESC limit 1 ";				
-					
-					$result_att11 = $mysqli->query($att11);
-				
-					$rowUser11 = $result_att11->fetch_assoc();
-
-					$dd = date('Y-m-d', strtotime($rowUser11['date']));
-					
-					*/
-					
-					
+									
 					$at_11 = "select * from `attendance` where `emp_code`='".$row['emp_code']."' ORDER BY `id` DESC ";				
 					$result_at11 = $mysqli->query($at_11);
 						
