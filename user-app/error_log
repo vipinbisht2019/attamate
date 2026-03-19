@@ -1,0 +1,871 @@
+[18-Feb-2020 12:32:41 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[19-Feb-2020 20:22:48 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[19-Feb-2020 20:23:08 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[21-Feb-2020 18:27:56 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Mar-2020 22:31:34 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2020 09:29:29 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[02-Mar-2020 09:31:06 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[02-Mar-2020 09:31:34 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[06-Mar-2020 19:10:16 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[06-Mar-2020 19:11:37 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[06-Mar-2020 19:11:51 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[06-Mar-2020 19:12:01 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[07-Mar-2020 10:59:43 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Apr-2020 01:00:28 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2020 22:10:06 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2020 14:50:05 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2020 14:50:10 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-May-2020 10:51:16 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-May-2020 17:43:03 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jun-2020 10:03:31 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Jun-2020 09:52:47 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Jun-2020 10:13:32 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jun-2020 17:10:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[05-Jun-2020 09:52:37 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[06-Jun-2020 12:14:00 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[11-Jun-2020 11:12:49 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[16-Jun-2020 13:05:23 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2020 09:52:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2020 10:01:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2020 10:05:46 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2020 10:05:46 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2020 11:58:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jul-2020 10:53:02 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[04-Jul-2020 11:19:39 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[15-Jul-2020 10:43:10 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[18-Jul-2020 11:40:00 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[23-Jul-2020 10:04:45 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[31-Jul-2020 10:26:11 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Aug-2020 11:57:54 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Aug-2020 11:58:00 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Aug-2020 11:58:18 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Aug-2020 11:58:21 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Aug-2020 13:23:17 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[14-Aug-2020 10:08:56 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[14-Aug-2020 10:17:01 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[19-Aug-2020 08:44:23 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[20-Aug-2020 08:33:22 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Sep-2020 09:59:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:08:26 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:09:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:09:31 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:10:10 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:12:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:20:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2020 10:25:03 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2020 09:40:36 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2020 09:57:16 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2020 10:47:19 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[29-Oct-2020 10:16:00 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Dec-2020 08:13:48 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2020 11:01:18 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2020 12:06:54 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Dec-2020 11:15:06 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Dec-2020 10:14:49 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Dec-2020 11:30:14 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Dec-2020 11:31:21 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Dec-2020 22:32:23 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[07-Dec-2020 10:55:19 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[08-Dec-2020 14:50:33 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:02:02 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:02:43 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:02:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:02:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:03:06 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:19:14 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:19:17 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:19:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:19:56 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:20:17 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:26:51 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Dec-2020 17:26:54 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[09-Dec-2020 12:51:48 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[09-Dec-2020 12:52:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[10-Dec-2020 11:27:12 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[10-Dec-2020 11:27:26 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[10-Dec-2020 20:28:01 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[11-Dec-2020 10:20:25 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 05:20:19 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 07:15:23 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 07:16:48 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 07:17:36 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 07:18:30 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jan-2021 10:42:05 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Jan-2021 10:59:33 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Jan-2021 18:50:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Jan-2021 20:01:36 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Jan-2021 20:02:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jan-2021 10:08:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jan-2021 10:15:32 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jan-2021 10:35:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jan-2021 10:36:36 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Jan-2021 10:37:43 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[05-Jan-2021 11:00:39 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[10-Jan-2021 20:09:48 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[20-Jan-2021 19:19:47 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[24-Jan-2021 00:13:57 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 09:16:15 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 09:47:13 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 10:03:30 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 10:23:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 15:28:18 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2021 17:38:32 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[15-Feb-2021 09:41:43 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[26-Feb-2021 16:44:10 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 09:47:05 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 09:50:07 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 09:59:35 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 10:07:59 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 10:29:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2021 19:15:42 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2021 09:41:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2021 10:03:13 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2021 11:16:20 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2021 11:18:26 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Mar-2021 10:01:16 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[20-Mar-2021 18:36:20 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Apr-2021 09:01:57 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 09:03:03 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 09:36:28 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 09:42:07 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 09:47:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 10:15:58 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 10:16:37 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2021 12:17:40 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[23-Apr-2021 08:56:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[23-Apr-2021 08:58:16 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[26-May-2021 10:36:34 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[26-May-2021 15:37:42 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[26-May-2021 15:38:57 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jun-2021 07:33:47 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jun-2021 07:33:53 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jun-2021 09:30:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Jun-2021 10:31:18 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2021 09:34:22 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2021 09:38:13 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Jul-2021 09:45:42 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Aug-2021 19:17:35 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 08:42:28 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 08:42:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 08:44:30 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 08:44:30 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 10:01:32 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 10:03:34 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 11:50:14 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Sep-2021 12:12:10 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Sep-2021 10:24:51 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Sep-2021 13:36:07 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[07-Sep-2021 19:00:19 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[21-Sep-2021 18:54:40 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[24-Sep-2021 18:46:45 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Oct-2021 08:30:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2021 09:29:55 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2021 09:58:56 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2021 10:03:25 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2021 10:30:51 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Oct-2021 18:55:19 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Oct-2021 19:30:52 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[07-Oct-2021 18:58:27 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[20-Oct-2021 18:51:21 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[25-Oct-2021 13:43:43 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/triad01/public_html/api-new/config/config.php on line 3
+[25-Oct-2021 13:43:43 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[25-Oct-2021 13:43:43 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[01-Nov-2021 07:37:38 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Nov-2021 10:01:00 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Nov-2021 10:08:20 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Nov-2021 10:11:21 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Nov-2021 13:34:58 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Nov-2021 14:07:28 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/triad01/public_html/api-new/config/config.php on line 3
+[01-Nov-2021 14:07:28 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[01-Nov-2021 14:07:28 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[01-Dec-2021 09:43:42 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 09:48:17 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 09:48:29 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 09:49:30 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 09:55:11 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 19:06:09 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Dec-2021 19:19:18 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Dec-2021 10:35:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Dec-2021 18:14:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[23-Dec-2021 18:59:37 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/triad01/public_html/api-new/config/config.php on line 3
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/triad01/public_html/api-new/config/config.php on line 3
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:54:50 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/triad01/public_html/api-new/config/config.php on line 3
+[29-Dec-2021 02:54:51 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:54:51 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[25-Jan-2022 09:53:24 Asia/Kolkata] PHP Warning:  mysqli::query(): MySQL server has gone away in /home/triad01/public_html/api-new/user-app/attendance_new.php on line 34
+[25-Jan-2022 09:53:24 Asia/Kolkata] PHP Warning:  mysqli::query(): Error reading result set's header in /home/triad01/public_html/api-new/user-app/attendance_new.php on line 34
+[01-Feb-2022 09:05:13 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2022 09:51:41 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2022 09:57:58 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Feb-2022 10:12:45 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[08-Feb-2022 10:28:29 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[17-Feb-2022 19:12:03 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[18-Feb-2022 19:40:51 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[25-Feb-2022 19:18:06 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Mar-2022 09:41:39 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2022 10:01:27 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Mar-2022 10:05:34 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2022 09:59:51 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2022 18:00:33 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-Mar-2022 18:11:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[03-Mar-2022 19:05:57 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[15-Mar-2022 11:46:20 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[15-Mar-2022 11:47:11 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[15-Mar-2022 22:27:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[16-Mar-2022 02:29:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[28-Mar-2022 10:04:30 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[28-Mar-2022 17:21:59 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[29-Mar-2022 14:42:56 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[30-Mar-2022 09:50:50 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[30-Mar-2022 10:09:34 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[01-Apr-2022 09:31:23 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2022 18:57:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2022 18:57:44 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-Apr-2022 21:31:03 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[04-Apr-2022 00:23:07 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Apr-2022 09:33:22 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-Apr-2022 09:53:09 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[12-Apr-2022 11:25:27 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[12-Apr-2022 11:46:00 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[13-Apr-2022 15:50:58 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[13-Apr-2022 15:52:54 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[16-Apr-2022 21:41:02 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[19-Apr-2022 09:57:50 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[19-Apr-2022 17:37:50 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[19-Apr-2022 17:40:09 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[20-Apr-2022 09:54:42 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[27-Apr-2022 13:40:56 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[01-May-2022 11:57:20 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2022 09:22:37 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2022 09:34:52 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2022 09:47:04 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[02-May-2022 14:50:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[04-May-2022 09:40:58 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[04-May-2022 21:34:08 Asia/Kolkata] PHP Warning:  Division by zero in /home/triad01/public_html/api-new/user-app/dashboard.php on line 50
+[05-May-2022 18:53:26 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[09-May-2022 19:34:42 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/api-new/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSeekable()
+#6 /home/triad01/public_html/api-new/config/s3/Aws/Signature/S3SignatureV4.php(22): Aws\Signature\Si in /home/triad01/public_html/api-new/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[03-Jun-2022 15:39:36 Asia/Kolkata] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/triad01/public_html/attamate/api-new-attamate/user-app/change_password.php on line 6
+[03-Jun-2022 15:39:44 Asia/Kolkata] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /home/triad01/public_html/attamate/api-new-attamate/user-app/change_password.php on line 6
+[20-Jun-2022 14:36:37 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[20-Jun-2022 14:36:41 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[20-Jun-2022 16:31:51 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[20-Jun-2022 16:34:21 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[21-Jun-2022 10:29:20 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[21-Jun-2022 11:35:09 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[21-Jun-2022 11:49:22 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[21-Jun-2022 11:52:40 Asia/Kolkata] PHP Warning:  mktime() expects parameter 4 to be integer, string given in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 38
+[06-Jul-2022 10:06:33 UTC] PHP Fatal error:  Cannot use [] for reading in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 69
+[06-Jul-2022 10:07:10 UTC] PHP Fatal error:  Cannot use [] for reading in /home/triad01/public_html/attamate/api-new-attamate/user-app/view_attendance.php on line 69
+[09-Aug-2022 10:15:08 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[16-Aug-2022 09:58:07 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[16-Aug-2022 10:18:40 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[22-Aug-2022 18:48:40 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[22-Aug-2022 19:18:45 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[24-Aug-2022 18:54:14 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[05-Sep-2022 09:58:49 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[05-Sep-2022 10:20:32 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[13-Sep-2022 23:45:15 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[14-Sep-2022 18:27:44 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[15-Sep-2022 20:46:47 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[23-Sep-2022 09:45:42 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[23-Sep-2022 10:03:46 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[26-Sep-2022 10:01:00 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[10-Oct-2022 10:00:34 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[10-Oct-2022 18:46:28 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[17-Oct-2022 09:40:55 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[21-Oct-2022 10:31:40 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[27-Oct-2022 19:00:37 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[28-Oct-2022 10:10:15 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[02-Nov-2022 09:46:35 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[04-Nov-2022 09:58:55 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[09-Nov-2022 19:22:55 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[10-Nov-2022 09:21:51 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[10-Nov-2022 16:41:33 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[21-Nov-2022 09:45:53 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[23-Nov-2022 09:53:08 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[23-Nov-2022 19:08:13 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299
+[24-Nov-2022 10:38:00 Asia/Kolkata] PHP Fatal error:  Uncaught RuntimeException: Unable to open  using mode r: fopen(): Filename cannot be empty in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php:299
+Stack trace:
+#0 [internal function]: GuzzleHttp\Psr7\{closure}(2, 'fopen(): Filena...', '/home/triad01/p...', 307, Array)
+#1 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php(307): fopen('', 'r')
+#2 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/LazyOpenStream.php(37): GuzzleHttp\Psr7\try_fopen('', 'r')
+#3 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(31): GuzzleHttp\Psr7\LazyOpenStream->createStream()
+#4 /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/StreamDecoratorTrait.php(116): GuzzleHttp\Psr7\LazyOpenStream->__get('stream')
+#5 /home/triad01/public_html/attamate/api-new-attamate/config/s3/Aws/Signature/SignatureV4.php(159): GuzzleHttp\Psr7\LazyOpenStream->isSee in /home/triad01/public_html/attamate/api-new-attamate/config/s3/GuzzleHttp/Psr7/functions.php on line 299

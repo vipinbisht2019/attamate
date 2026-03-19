@@ -1,0 +1,5 @@
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/triad01/public_html/api-new/config/config.php on line 3
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[30-Jun-2022 13:24:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/triad01/public_html/attamate/api-new-attamate/user-app/auto-out/auto_out_fix_request.php on line 47
+[30-Jun-2022 13:24:52 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/triad01/public_html/attamate/api-new-attamate/user-app/auto-out/auto_out_fix_request.php on line 47

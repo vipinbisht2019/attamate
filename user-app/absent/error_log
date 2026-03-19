@@ -1,0 +1,6 @@
+[10-Jun-2019 16:53:22 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): No such file or directory in /home/triad01/public_html/api-new/config/config.php on line 3
+[10-Jun-2019 16:53:22 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[10-Jun-2019 16:53:22 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Connection refused in /home/triad01/public_html/api-new/config/config.php on line 3
+[29-Dec-2021 02:16:03 UTC] PHP Warning:  main(): Couldn't fetch mysqli in /home/triad01/public_html/api-new/config/config.php on line 7
+[29-Dec-2021 02:16:03 UTC] PHP Notice:  Connection failed:  in /home/triad01/public_html/api-new/config/config.php on line 7
